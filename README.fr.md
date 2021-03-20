@@ -32,17 +32,17 @@ Citation.js convertit desformats tels que BibTeX, Wikidata JSON et BibJSON à CS
 
 <!-- tocstop -->
 
-# Install
+# Installation
 
-On Node.js, install the package ([citation-js](https://npmjs.org/package/citation-js)) like this:
+Sur Node.js, installer le pacquet ([citation-js](https://npmjs.org/package/citation-js)) comme suit:
 
     npm install citation-js
 
-To install the CLI as a global command, do this:
+Pour installer la CLI (interface en ligne de commande) comme une commande global, faites ceci: 
 
     npm install --global citation-js
 
-Browser releases are available [here](https://github.com/larsgw/citation.js/tree/archive). These define `require` and add `citation-js` as a module.
+Browser releases sont disponibles [ici](https://github.com/larsgw/citation.js/tree/archive). These define `require` and add `citation-js` as a module.
 
 ```html
 <script src="path/to/citation.js" type="text/javascript"></script>
@@ -51,15 +51,15 @@ Browser releases are available [here](https://github.com/larsgw/citation.js/tree
 </script>
 ```
 
-# Getting Started
+# Commencer
 
-You can read a guide on how to get started, together with some tutorials and examples, [here](https://citation.js.org/api/tutorial-getting_started.html).
+Vous pouvez lire le guide sur comment demarrer, ensemble avec quelques tutoriels et exemple, [ici](https://citation.js.org/api/tutorial-getting_started.html).
 
 # CLI
 
 > [More info](https://citation.js.org/api/tutorial-cli.html)
 
-Run the CLI like this:
+Exécuter la CLI de la manière suivantelike this:
 
     citation-js  [options]
 
@@ -123,7 +123,7 @@ console.log(output)
 
 > `Cite.async()` also supports options as the second argument, and a callback function as last argument.
 
-# Acknowledgements
+# Remerciements
 
 [![JS.ORG](https://logo.js.org/dark_tiny.png)](https://js.org)
 

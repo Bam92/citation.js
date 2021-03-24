@@ -81,15 +81,15 @@ Exécuter la CLI de la manière suivantelike this:
 
 # `Cite`
 
-> [More info](https://citation.js.org/api/tutorial-cite_.html)
+> [Plus d'info](https://citation.js.org/api/tutorial-cite_.html)
 
-To use the [`Cite`](#cite) constructor, `require()` the module like this:
+Pour utiliser le constructeurr [`Cite`](#cite), appellez le module avec `require()` comme suit:
 
 ```js
 const Cite = require('citation-js')
 ```
 
-For example, to get the bibliographical data of the Wikidata item [`wd:Q21972834`](https://wikidata.org/wiki/Q21972834), and then format it in HTML, English and APA:
+Par exemple, pour avoir les données biographique de l'item Wikidata [`wd:Q21972834`](https://wikidata.org/wiki/Q21972834), et en suite le formater en HTML, Anglais et APA:
 
 ```js 
 let example = new Cite('Q21972834')
@@ -103,11 +103,11 @@ let output = example.format('bibliography', {
 console.log(output)
 ```
 
-To test this code, go to [RunKit](https://runkit.com/larsgw/591b5651bd9b40001113931c).
+Allez sur [RunKit](https://runkit.com/larsgw/591b5651bd9b40001113931c) pour tester ce code.
 
 ## Async
 
-Use the async API (recommended for Wikidata, URL, and DOI input) like this:
+Utliser l'API async (recommendée pour Wikidata, URL, and DOI input) comme suit:
 
 ```js
 let example = await Cite.async('Q21972834')
@@ -121,14 +121,14 @@ let output = example.format('bibliography', {
 console.log(output)
 ```
 
-> `Cite.async()` also supports options as the second argument, and a callback function as last argument.
+> `Cite.async()` supporte aussi les options comme second argument et une function de rappel comme un dernier argument.
 
 # Remerciements
 
 [![JS.ORG](https://logo.js.org/dark_tiny.png)](https://js.org)
 
-* Thanks to the JS.ORG [DNS service](https://dns.js.org) for the site url!
+* Merci à JS.ORG [DNS service](https://dns.js.org) pour l'URL de ce site!
 
 [<img width="250" alt="BrowserStack" src="https://citation.js.org/static/img/browserstack-logo-600x315.png" />](https://browserstack.com)
 
-* Thanks to [BrowserStack](https://browserstack.com) for the free Open Source plan, allowing me to automate testing browser support, and avoid issues like [this one](https://github.com/larsgw/citation.js/issues/87)!
+* Merci a [BrowserStack](https://browserstack.com) pour le plan libre open source qui me permet d'automatiser le test de support de navigateurs, et éviter des issues comme [celle-ci](https://github.com/larsgw/citation.js/issues/87)!
